@@ -29,9 +29,9 @@ export const services: ServiceItem[] = [
     description: 'Reliable remote technical assistance ensuring your business uptime. We troubleshoot, maintain, and secure your infrastructure from anywhere.',
     icon: 'wifi',
     imageUrls: [
-      'https://images.unsplash.com/photo-1504384308090-c54be3855833?auto=format&fit=crop&w=800&q=80', // Tech workspace
-      'https://images.unsplash.com/photo-1531538606174-0f90ff5dce83?auto=format&fit=crop&w=800&q=80', // Professional analyzing data
-      'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80'  // Support meeting
+      'https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?auto=format&fit=crop&w=800&q=80', // IT professional
+      'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80', // Tech support
+      'https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=800&q=80'  // Remote support
     ]
   }
 ];
