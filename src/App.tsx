@@ -318,7 +318,7 @@ const App: React.FC = () => {
           
           <div className="border-t border-gray-900 mt-16 pt-8 text-center text-gray-600 text-sm flex flex-col md:flex-row justify-between items-center">
             <span>&copy; {new Date().getFullYear()} Tshikamisava Holdings. All rights reserved.</span>
-            <span className="mt-2 md:mt-0">Designed with precision.</span>
+            <span className="mt-2 md:mt-0">Designed by Tshikamisava Holdings.</span>
           </div>
         </div>
       </footer>
