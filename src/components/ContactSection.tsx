@@ -81,6 +81,9 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedType 
                   <div className="w-2 h-2 bg-brand-red rounded-full"></div>
                   <span>0670962825</span>
                 </div>
+                <div className="flex items-center gap-3 text-gray-600">
+                  
+                </div>
               </div>
             </div>
           </div>

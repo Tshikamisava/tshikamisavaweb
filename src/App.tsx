@@ -3,6 +3,7 @@ import { Menu, X, ArrowRight, Building2, Globe2, CheckCircle2, Facebook, Twitter
 import { Button } from './components/Button';
 import { ServiceCard } from './components/ServiceCard';
 import { ContactSection } from './components/ContactSection';
+import { WhatsAppChatPopup } from './components/WhatsAppChatPopup';
 import { InquiryType, type InquiryTypeValue } from './types';
 import { services } from './data/services';
 
@@ -39,7 +40,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white relative">
       {/* Navigation */}
       <nav 
         className={`fixed w-full z-50 transition-all duration-300 ${
@@ -322,6 +323,9 @@ const App: React.FC = () => {
           </div>
         </div>
       </footer>
+
+      {/* WhatsApp Chat Popup */}
+      <WhatsAppChatPopup />
     </div>
   );
 };
